@@ -10,43 +10,55 @@
 	
 	<form method="post" action="abc12@gmail.com">
          
-		<label for="port">Portfolio: </label>
-		<input type="url" placeholder="Type your URL"><br><br>
-
-		<label for="name">Name: </label>
-         <input type="text" id="name" name="fname"><br><br>
-
-		<label for="email">Email: </label>
-		<input type="text" id="email" name="mail"><br><br>
-
-		<label for="gender">Gender: </label>
-		<input type="radio" id="gender" name="gender" />Male
-		<input type="radio" id="gender" name="gender" />Female
-		<input type="radio" id="gender" name="gender" />Other<br><br>
-
-        
-		<label for="lbrands">Laptop Brands</label>
-		<select>
-		<option value="apple">Apple</option>
-		<option value="HP">HP</option>
-		<option value="Asus">Asus</option>
-		</select><br>
-
-
-		<label for="age">Age</label>
-		<input type="text" id="age" name="Age"><br><br>
-
-
-		 
-		<label for="dob">DOB</label>
-		<input type="date" id="dob" name="birthday"><br><br>
-
-		<label for="password">Password</label>
-        <input type="password" id="password" name="pwd"><br><br>
-        
-		<input type="submit" value="Submit">
-
-	</form>
+		
+	
+	<label for="name">  
+	 Name :<input type="text" id="name" value="Dinesh Kumar" required> 
+	</label> 
+	<br>  
+	<br>  
+			         
+			         <label for="email">  
+			                Email : <input type="email" id="email" value="xzc@gmail.com" required>  
+			        </label>  
+			        <br>  
+			        <br> 
+			 
+			        <label for="portfolio">  
+			        Portfolio : <input type="url" id="portfolio" value="http://agree.example.com">  
+			</label> 
+			<br>  
+			 <br> 
+						
+			<label for="gender">  
+			Gender:<input type="radio" id="gender" value="Male" name="gender" required>Male 
+			<input type="radio" id="gender" value="Female" name="gender" required> Female  
+			        </label> 
+			        <br>  
+			        <br> 
+			         
+			         <label for="laptop"> Laptop : 
+			                 <select id="laptop">  
+			                         <option value="Apple"> Apple </option> 
+			                          <option value="Asus"> Asus </option> 
+			                          <option value="HP"> HP </option>  
+			                        </select>  
+			                        </label> 
+			                        <br>  
+			                  <br> 
+			         
+			         
+			        <label for="age"> Age : <input type="number" id="age" value="22" required> </label><br>  
+			        <br> 
+			 
+			        <label for="dob"> DOB : <input type="date" id="dob" value="10-11-2000" required></label><br>  
+			        <br> 
+			 
+			        <label for="password"> Password : <input type="password" id="password" value="12345" required></label><br>  
+			        <br> 
+			         
+			        <button type="submit">Submit</button> 
+			        </form>
 
 
     <script type="text/javascript" src="./script.js">
